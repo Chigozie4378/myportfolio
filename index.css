@@ -1,0 +1,111 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: aquamarine;
+	padding-bottom: 25vh;
+}
+.main-nav{
+	background-color: skyblue;
+	height: 50px;
+	position: sticky;
+	top: 0px;
+	padding: 0px;
+	margin: 0;
+
+}
+ul{
+	list-style-type: none;
+	padding-top: 15px;
+}
+ul li{
+	padding-right: 20px;
+	display: inline;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+
+}
+.main{
+	
+	background-image: url(port-back1.jpeg);
+	background-size: cover;
+	height: 100vh;
+
+}
+button:hover{
+	background-color: blue;
+	color: white;
+	size: cover;
+
+}
+
+
+
+
+
+
+
+.sub-main2{
+
+	clear: both;
+	
+	float: left;
+	width: 30%
+
+}
+.sub-main3{
+	padding-top: 60px;
+	float: left;
+	width: 30%;
+}
+
+.sub-foot{
+	box-sizing: border-box;
+	background-color: #fafafa;
+}
+footer{
+	box-sizing: border-box;
+}
+
+
+i{
+	color: white;
+	font-size: 25px;
+	padding-right: 5px;
+
+}
+
+.about{
+	box-sizing: border-box;
+	clear: both;
+}
+
+td p{
+	color: blue;
+}
+
+.services-bg{
+	background-color:rgb(195, 216, 224);
+}
+
+.contact-bg{
+	background-color: rgb(195, 216, 224);
+	height: 150vh;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	font-weight: bold;
+}
+
+a.active{
+	color: blue;
+}
+a:hover:not(.active){
+	color: blueviolet;
+}
+
+#radius{
+	border-radius: 20px;
+}
